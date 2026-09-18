@@ -4,8 +4,8 @@ st.title("Streamlit Interaction: linear")
 
 # setup
 name = st.text_input("Who are you?")
-hi_clicked = st.button('Say Hi!')
-clear_clicked = st.button('Clear')
+hi_clicked = st.button('Say Hi!', type = "primary")
+clear_clicked = st.button('Clear', type = "primary")
 
 # interactions
 if hi_clicked:
